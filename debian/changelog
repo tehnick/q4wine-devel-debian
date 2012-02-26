@@ -1,3 +1,9 @@
+q4wine-unstable (0.999-20120226-165452-c938c25-0ppa1~precise1) precise; urgency=low
+
+  * Minor update from GIT master branch.
+
+ -- Boris Pek <tehnick-8@mail.ru>  Sun, 26 Feb 2012 16:55:12 +0200
+
 q4wine-unstable (0.999-20120125-214210-0cd2996-0ppa1~precise1) precise; urgency=low
 
   * Minor update from GIT master branch.

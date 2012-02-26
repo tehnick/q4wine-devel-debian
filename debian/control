@@ -9,12 +9,13 @@ Build-Depends: debhelper (>= 7), cmake, autotools-dev, fakeroot,
 Homepage: http://q4wine.brezblock.org.ua/
 Vcs-Git: git://github.com/tehnick/q4wine-unstable-debian.git
 Vcs-Browser: https://github.com/tehnick/q4wine-unstable-debian/tree/launchpad/debian
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 
 Package: q4wine-unstable
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends},
- wine-bin [amd64 i386] | wine-bin-unstable [amd64 i386] | wine [amd64 i386] | wine1.0 [amd64 i386] | wine1.2 [amd64 i386] | wine1.3 [amd64 i386],
+ wine-bin [amd64 i386] | wine-bin-unstable [amd64 i386] | wine [amd64 i386] |
+ wine1.0 [amd64 i386] | wine1.2 [amd64 i386] | wine1.3 [amd64 i386],
  libqt4-sql-sqlite, icoutils (>=0.26.0), wget, sudo
 Suggests: fuseiso [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64]
 Replaces: q4wine
