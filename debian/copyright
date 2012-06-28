@@ -4,7 +4,6 @@ Debianized-Date: Thu, 08 Oct 2009 18:12:41 +0400
 Upstream-Name: Q4Wine
 Upstream-Contact: Alexey S. Malakhov (John Brezerk) <brezerk@gmail.com>
 Source: http://github.com/brezerk/q4wine
- The orig.tar.bz2 is is just renamed upstream tarball (without changes).
 
 Files: *
 Copyright: 2008-2012 Alexey S. Malakhov (John Brezerk) <brezerk@gmail.com>
