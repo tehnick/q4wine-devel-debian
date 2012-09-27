@@ -8,7 +8,7 @@ Build-Depends: debhelper (>= 7.0.50~), cmake, autotools-dev, fakeroot,
  icoutils (>=0.26.0), libkvm-dev [kfreebsd-any]
 Homepage: http://q4wine.brezblock.org.ua/
 Vcs-Git: git://github.com/tehnick/q4wine-unstable-debian.git
-Vcs-Browser: https://github.com/tehnick/q4wine-unstable-debian/tree/launchpad/debian
+Vcs-Browser: https://github.com/tehnick/q4wine-unstable-debian
 Standards-Version: 3.9.3
 DM-Upload-Allowed: yes
 
