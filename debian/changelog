@@ -1,8 +1,8 @@
-q4wine-unstable (1.0-4-g080b7bd-0ppa1~raring1) raring; urgency=low
+q4wine-unstable (1.0-15-g4db8b6a-0ppa1~raring1) raring; urgency=low
 
   * Minor update from Git master branch.
 
- -- Boris Pek <tehnick-8@mail.ru>  Thu, 24 Jan 2013 21:47:24 +0200
+ -- Boris Pek <tehnick-8@mail.ru>  Fri, 25 Jan 2013 19:11:00 +0200
 
 q4wine (0.113-1) unstable; urgency=low
 
