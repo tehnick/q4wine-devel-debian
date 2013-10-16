@@ -1,8 +1,8 @@
-q4wine-unstable (1.0-r3-48-g51ee13d-0ppa1~saucy1) saucy; urgency=low
+q4wine-unstable (1.0-r3-52-g4607b2e-0ppa1~saucy1) saucy; urgency=low
 
   * Minor update from Git master branch.
 
- -- Boris Pek <tehnick@debian.org>  Wed, 09 Oct 2013 23:43:58 +0300
+ -- Boris Pek <tehnick@debian.org>  Thu, 17 Oct 2013 01:35:54 +0300
 
 q4wine (0.113-1) unstable; urgency=low
 
