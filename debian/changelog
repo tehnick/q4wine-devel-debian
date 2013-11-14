@@ -1,3 +1,15 @@
+q4wine-unstable (1.1-5-g695125b-0ppa1~trusty1) trusty; urgency=low
+
+  * Minor update from Git master branch.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 27 Nov 2013 01:49:16 +0200
+
+q4wine-unstable (1.1-4-gd449b57-0ppa1~trusty1) trusty; urgency=low
+
+  * Minor update from Git master branch.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 19 Nov 2013 02:45:36 +0200
+
 q4wine-unstable (1.1-37-g12b9462-0ppa1~trusty1) trusty; urgency=low
 
   * Minor update from Git master branch.
