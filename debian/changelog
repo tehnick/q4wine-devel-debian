@@ -1,8 +1,8 @@
-q4wine-unstable (1.1-r2-0ppa1~trusty1) trusty; urgency=medium
+q4wine-unstable (1.1-r2-1-g5dd5ec4-0ppa1~trusty1) trusty; urgency=medium
 
   * Minor update from Git master branch.
 
- -- Boris Pek <tehnick@debian.org>  Tue, 17 Dec 2013 14:56:38 +0400
+ -- Boris Pek <tehnick@debian.org>  Sat, 11 Jan 2014 15:48:42 +0400
 
 q4wine (0.113-1) unstable; urgency=low
 
