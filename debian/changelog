@@ -1,3 +1,16 @@
+q4wine-unstable (1.1-r2-3-g520026f-0ppa2~utopic1) utopic; urgency=medium
+
+  * Sync package on Launchpad with package in Debian.
+  * Clean changelog.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 25 Sep 2014 08:55:17 +0400
+
+q4wine-unstable (1.1-r2-3-g520026f-0ppa1~trusty1) trusty; urgency=medium
+
+  * Minor update from Git master branch.
+
+ -- Boris Pek <tehnick@debian.org>  Sat, 25 Jan 2014 17:53:10 +0400
+
 q4wine (1.1-r2-3) unstable; urgency=medium
 
   * Add icoutils back to Build-Depends.
