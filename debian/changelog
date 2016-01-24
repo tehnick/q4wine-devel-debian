@@ -1,136 +1,23 @@
-q4wine-devel (1.3.1-3-gcb59979-0ppa1~xenial1) xenial; urgency=medium
+q4wine (1.3.1-1) unstable; urgency=medium
 
-  * New Git snapshot.
+  * New upstream release.
+  * Bump Standards-Version to 3.9.8 (was 3.9.7): no changes required.
 
- -- Boris Pek <tehnick@debian.org>  Mon, 25 Jul 2016 02:01:01 +0300
+ -- Boris Pek <tehnick@debian.org>  Mon, 25 Jul 2016 02:12:32 +0300
 
-q4wine-devel (1.3.1-0ppa1~xenial1) xenial; urgency=medium
+q4wine (1.3-1) unstable; urgency=medium
 
-  * New Git snapshot.
+  * New upstream release. Fixed in upstream:
+    library paths were removed from settings dialog
+    (Closes: #815018)
+  * Move winetricks from Recommends to Suggests of q4wine package.
+    (Closes: #820185)
+  * Bump Standards-Version to 3.9.7 (was 3.9.6): no changes required.
+  * Enable all hardening flags in debian/rules.
+  * Update fix-documentation-url.patch.
+  * Update debian/copyright.
 
- -- Boris Pek <tehnick@debian.org>  Fri, 22 Jul 2016 00:37:32 +0300
-
-q4wine-devel (1.3-12-g3ffe920-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 29 Jun 2016 00:26:43 +0300
-
-q4wine-devel (1.3-8-gf7dce44-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 03 May 2016 12:01:19 +0300
-
-q4wine-devel (1.3-5-g6aece14-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 24 Mar 2016 02:12:52 +0300
-
-q4wine-devel (1.3-4-g75df3a2-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 10 Mar 2016 01:20:04 +0300
-
-q4wine-devel (1.3-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Sat, 27 Feb 2016 21:02:19 +0300
-
-q4wine-devel (1.2-r2-60-g52a4141-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 22 Feb 2016 16:17:12 +0300
-
-q4wine-devel (1.2-r2-58-g5cf0b52-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Sat, 20 Feb 2016 01:02:13 +0300
-
-q4wine-devel (1.2-r2-55-gd8fba61-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 18 Feb 2016 23:49:24 +0300
-
-q4wine-devel (1.2-r2-54-g5e03363-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 17 Feb 2016 00:56:50 +0300
-
-q4wine-devel (1.2-r2-49-g0baea47-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 16 Feb 2016 00:11:33 +0300
-
-q4wine-devel (1.2-r2-47-g8f6ff25-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 15 Feb 2016 23:23:45 +0300
-
-q4wine-devel (1.2-r2-45-g6d35fdd-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 15 Feb 2016 22:38:03 +0300
-
-q4wine-devel (1.2-r2-37-gf430f17-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 12 Feb 2016 00:44:49 +0300
-
-q4wine-devel (1.2-r2-34-g8be125a-0ppa1~xenial1) xenial; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 04 Feb 2016 23:49:01 +0300
-
-q4wine-devel (1.2-r2-33-g2da35a7-0ppa1~xenial1) xenial; urgency=medium
-
-  * New upstream Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 02 Feb 2016 01:53:29 +0300
-
-q4wine-devel (1.2-r2-31-gd5cf0a2-0ppa1~xenial1) xenial; urgency=medium
-
-  * New upstream Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 01 Feb 2016 00:00:35 +0300
-
-q4wine-devel (1.2-r2-28-g48a6f2d-0ppa1~xenial1) xenial; urgency=medium
-
-  * New upstream Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 29 Jan 2016 23:29:01 +0300
-
-q4wine-devel (1.2-r2-23-g28919ac-0ppa1~xenial1) xenial; urgency=medium
-
-  * New upstream Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 26 Jan 2016 20:29:46 +0300
-
-q4wine-devel (1.2-r2-21-g89ff2de-0ppa1~xenial1) xenial; urgency=medium
-
-  * New upstream Git snapshot.
-  * Sync with stable q4wine package.
-  * Clean changelog.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 26 Jan 2016 01:59:08 +0300
-
-q4wine (1.2-r2-1ppa1~xenial1) xenial; urgency=medium
-
-  * Rebuild for Launchpad.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 26 Jan 2016 00:13:41 +0300
+ -- Boris Pek <tehnick@debian.org>  Thu, 07 Apr 2016 00:39:33 +0300
 
 q4wine (1.2-r2-1) unstable; urgency=medium
 
