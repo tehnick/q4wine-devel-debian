@@ -1,3 +1,11 @@
+q4wine-devel (1.2-r2-21-g89ff2de-0ppa1~xenial1) xenial; urgency=medium
+
+  * New upstream Git snapshot.
+  * Sync with stable q4wine package.
+  * Clean changelog.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 26 Jan 2016 01:59:08 +0300
+
 q4wine (1.2-r2-1ppa1~xenial1) xenial; urgency=medium
 
   * Rebuild for Launchpad.
