@@ -1,3 +1,9 @@
+q4wine-qt4-devel (1.2-r2-33-g2da35a7-0ppa1~wily1) wily; urgency=medium
+
+  * New Git snapshot.
+
+ -- Boris Pek <tehnick@debian.org>  Tue, 02 Feb 2016 01:54:21 +0300
+
 q4wine-qt4-devel (1.2-r2-31-gd5cf0a2-0ppa1~wily1) wily; urgency=medium
 
   * New upstream Git snapshot.
