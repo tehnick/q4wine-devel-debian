@@ -1,3 +1,9 @@
+q4wine-qt4-devel (1.2-r2-37-gf430f17-0ppa2~wily1) wily; urgency=medium
+
+  * Some fixes in package.
+
+ -- Boris Pek <tehnick@debian.org>  Fri, 12 Feb 2016 01:40:28 +0300
+
 q4wine-qt4-devel (1.2-r2-37-gf430f17-0ppa1~wily1) wily; urgency=medium
 
   * New Git snapshot.
