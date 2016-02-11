@@ -10,8 +10,8 @@ Build-Depends: cmake,
                libqt4-dev,
                qt4-dev-tools
 Homepage: https://web.archive.org/web/20131204020055/http://q4wine.brezblock.org.ua/
-Vcs-Git: https://github.com/tehnick/q4wine-debian.git
-Vcs-Browser: https://github.com/tehnick/q4wine-debian
+Vcs-Git: https://github.com/tehnick/q4wine-devel-debian.git
+Vcs-Browser: https://github.com/tehnick/q4wine-devel-debian
 Standards-Version: 3.9.6
 
 Package: q4wine
