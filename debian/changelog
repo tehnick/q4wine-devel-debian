@@ -1,3 +1,9 @@
+q4wine-devel (1.2-r2-60-g52a4141-0ppa1~xenial1) xenial; urgency=medium
+
+  * New Git snapshot.
+
+ -- Boris Pek <tehnick@debian.org>  Mon, 22 Feb 2016 16:17:12 +0300
+
 q4wine-devel (1.2-r2-58-g5cf0b52-0ppa1~xenial1) xenial; urgency=medium
 
   * New Git snapshot.
