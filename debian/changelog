@@ -1,3 +1,9 @@
+q4wine-devel (1.3.5-12-gc5a95cd-0ppa1~artful1) artful; urgency=medium
+
+  * New Git snapshot.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 03 Aug 2017 09:30:15 +0300
+
 q4wine-devel (1.3.5-11-gedf8192-0ppa1~zesty1) zesty; urgency=medium
 
   * New Git snapshot.
