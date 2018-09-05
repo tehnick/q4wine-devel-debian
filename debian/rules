@@ -11,8 +11,7 @@ export DEB_CXXFLAGS_MAINT_APPEND = $(shell dpkg-buildflags --get CPPFLAGS)
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
-CMAKEOPTS = -DLIBS_ENTRY_PATH=/usr/lib/ \
-            -DSKIP_RPATH=ON \
+CMAKEOPTS = -DLIBS_ENTRY_PATH=/usr/lib/q4wine/ \
             -DQT5=ON \
             -DUSE_GZIP=ON \
             -DWITH_WINEAPPDB=OFF
