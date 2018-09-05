@@ -1,3 +1,9 @@
+q4wine-devel (1.3.7-44-gd9bf30e-0ppa1~cosmic1) cosmic; urgency=medium
+
+  * New Git snapshot.
+
+ -- Boris Pek <tehnick@debian.org>  Thu, 06 Sep 2018 00:48:08 +0300
+
 q4wine-devel (1.3.7-41-ge95cabd-0ppa1~cosmic1) cosmic; urgency=medium
 
   * New Git snapshot.
