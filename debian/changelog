@@ -1,3 +1,9 @@
+q4wine-devel (1.3.11-10-gda1f303-0ppa1~disco1) disco; urgency=medium
+
+  * New Git snapshot.
+
+ -- Boris Pek <tehnick@debian.org>  Wed, 06 Feb 2019 23:34:26 +0300
+
 q4wine-devel (1.3.11-6-g958badd-0ppa1~disco1) disco; urgency=medium
 
   * New Git snapshot.
