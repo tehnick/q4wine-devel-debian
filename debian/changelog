@@ -4,126 +4,31 @@ q4wine-devel (1.3.12+2+g520d4e7-0ppa1~focal1) focal; urgency=medium
 
  -- Boris Pek <tehnick@debian.org>  Thu, 12 Mar 2020 02:02:01 +0300
 
-q4wine-devel (1.3.12-0ppa1~focal1) focal; urgency=medium
+q4wine (1.3.12-0ppa1~focal1) focal; urgency=medium
 
-  * New Git snapshot.
+  * New stable release.
 
- -- Boris Pek <tehnick@debian.org>  Tue, 11 Feb 2020 00:10:23 +0300
+ -- Boris Pek <tehnick@debian.org>  Tue, 11 Feb 2020 00:22:41 +0300
 
-q4wine-devel (1.3.11-30-g89a5964-0ppa1~focal1) focal; urgency=medium
+q4wine (1.3.11-1ppa1~focal1) focal; urgency=medium
 
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 10 Dec 2019 22:12:27 +0300
-
-q4wine-devel (1.3.11-28-gd041569-0ppa1~focal1) focal; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 06 Dec 2019 23:57:09 +0300
-
-q4wine-devel (1.3.11-26-g2cc419a-0ppa1~eoan1) eoan; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 08 Oct 2019 23:30:10 +0300
-
-q4wine-devel (1.3.11-25-g6220a86-0ppa1~eoan1) eoan; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 10 Sep 2019 23:13:52 +0300
-
-q4wine-devel (1.3.11-21-gbf3c1c9-0ppa1~eoan1) eoan; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 22 Aug 2019 01:42:47 +0300
-
-q4wine-devel (1.3.11-19-gb931c28-0ppa1~eoan1) eoan; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 14 Jun 2019 01:30:36 +0300
-
-q4wine-devel (1.3.11-18-g82644aa-0ppa1~eoan1) eoan; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Mon, 10 Jun 2019 22:34:57 +0300
-
-q4wine-devel (1.3.11-17-g129e099-0ppa1~eoan1) eoan; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Sat, 04 May 2019 13:28:55 +0300
-
-q4wine-devel (1.3.11-13-g0c3d8cf-0ppa1~eoan1) eoan; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 03 May 2019 23:09:02 +0300
-
-q4wine-devel (1.3.11-10-gda1f303-0ppa1~disco1) disco; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 06 Feb 2019 23:34:26 +0300
-
-q4wine-devel (1.3.11-6-g958badd-0ppa1~disco1) disco; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 05 Feb 2019 01:44:08 +0300
-
-q4wine-devel (1.3.11-5-g486d12a-0ppa1~cosmic1) cosmic; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 17 Jan 2019 02:05:59 +0300
-
-q4wine-devel (1.3.11-1-g6b07c97-0ppa1~cosmic1) cosmic; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 02 Jan 2019 04:01:09 +0300
-
-q4wine-devel (1.3.11-0ppa1~cosmic1) cosmic; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Wed, 02 Jan 2019 03:35:40 +0300
-
-q4wine-devel (1.3.10-8-g0193cef-0ppa1~cosmic1) cosmic; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Sat, 24 Nov 2018 01:40:27 +0300
-
-q4wine-devel (1.3.10-5-g22adeb7-0ppa1~cosmic1) cosmic; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 28 Sep 2018 02:38:39 +0300
-
-q4wine-devel (1.3.10-4-g7ef9192-0ppa1~cosmic1) cosmic; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 28 Sep 2018 02:10:09 +0300
-
-q4wine-devel (1.3.10-1-g29ee14d-0ppa2~cosmic1) cosmic; urgency=medium
-
-  * Sync with stable q4wine package.
+  * Sync package on Launchpad with package in Debian.
   * Clean changelog.
 
- -- Boris Pek <tehnick@debian.org>  Thu, 13 Sep 2018 01:18:17 +0300
+ -- Boris Pek <tehnick@debian.org>  Fri, 17 Jan 2020 02:23:24 +0300
 
-q4wine-devel (1.3.10-1-g29ee14d-0ppa1~cosmic1) cosmic; urgency=medium
+q4wine (1.3.11-1) unstable; urgency=medium
 
-  * New Git snapshot.
+  * New upstream release.
+  * Bump Standards-Version to 4.3.0 (was 4.2.1).
+  * Bump debhelper version to 12~ (was 11~); update debian/compat.
+  * Simplify debian/rules: stop adding of CPPFLAGS into CXXFLAGS using of
+    DEB_CXXFLAGS_MAINT_APPEND as workaround for cmake because debhelper
+    already does this since version 9.20120417.
+  * Update years in debian/copyright.
+  * Add debian/upstream/metadata.
 
- -- Boris Pek <tehnick@debian.org>  Thu, 13 Sep 2018 00:01:33 +0300
+ -- Boris Pek <tehnick@debian.org>  Tue, 08 Jan 2019 01:21:06 +0300
 
 q4wine (1.3.10-1) unstable; urgency=medium
 
@@ -139,6 +44,7 @@ q4wine (1.3.10-1) unstable; urgency=medium
 
 q4wine (1.3.7-1) unstable; urgency=medium
 
+  * New upstream release.
   * Bump Standards-Version to 4.1.4 (was 4.1.1): no changes required.
   * Add build dependency from libqt5svg5-dev.
   * Update years in debian/copyright.
