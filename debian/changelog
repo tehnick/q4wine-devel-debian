@@ -1,3 +1,9 @@
+q4wine-devel (1.3.12+19+g0da5111-0ppa2~impish1) impish; urgency=medium
+
+  * Small improvements in the package.
+
+ -- Boris Pek <tehnick@debian.org>  Sun, 25 Apr 2021 01:36:27 +0300
+
 q4wine-devel (1.3.12+19+g0da5111-0ppa1~hirsute1) hirsute; urgency=medium
 
   * New Git snapshot.
