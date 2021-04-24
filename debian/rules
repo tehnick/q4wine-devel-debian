@@ -10,7 +10,7 @@ CMAKEOPTS = -DLIBS_ENTRY_PATH=/usr/lib/q4wine/ \
             -DWITH_WINEAPPDB=OFF
 
 %:
-	dh $@ --parallel
+	dh $@
 
 override_dh_auto_configure:
 	dh_auto_configure -- $(CMAKEOPTS)
