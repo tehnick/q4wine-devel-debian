@@ -1,75 +1,26 @@
-q4wine-devel (1.3.13-0ppa1~impish1) impish; urgency=medium
+q4wine (1.3.13-0ppa1~impish1) impish; urgency=medium
 
-  * New Git snapshot.
+  * New upstream release.
 
- -- Boris Pek <tehnick@debian.org>  Wed, 15 Sep 2021 00:58:54 +0300
+ -- Boris Pek <tehnick@debian.org>  Thu, 23 Sep 2021 00:16:33 +0300
 
-q4wine-devel (1.3.12+19+g0da5111-0ppa2~impish1) impish; urgency=medium
+q4wine (1.3.12-1) unstable; urgency=medium
 
-  * Small improvements in the package.
+  * New upstream release.
+  * Update patch 01_fix-documentation-url.
+  * Update debian/control:
+    - bump Standards-Version to 4.5.1 (was 4.3.0): no changes required
+    - replace build dependency from debhelper (>= 12~) to
+      debhelper-compat (= 13)
+    - add Rules-Requires-Root: no
+  * Delete debian/compat.
+  * Simplify debian/rules:
+    remove DEB_LDFLAGS_MAINT_APPEND variable with -Wl,--as-needed flag
+  * Update debian/watch.
+  * Update debian/lintian-overrides.
+  * Update years in debian/copyright.
 
- -- Boris Pek <tehnick@debian.org>  Sun, 25 Apr 2021 01:36:27 +0300
-
-q4wine-devel (1.3.12+19+g0da5111-0ppa1~hirsute1) hirsute; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 19 Mar 2021 23:47:35 +0300
-
-q4wine-devel (1.3.12+17+g4e837b3-0ppa1~hirsute1) hirsute; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 19 Mar 2021 20:20:14 +0300
-
-q4wine-devel (1.3.12+13+g416feaf-0ppa1~hirsute1) hirsute; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 18 Mar 2021 01:30:36 +0300
-
-q4wine-devel (1.3.12+11+gadbe2ac-0ppa1~groovy1) groovy; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Sun, 11 Oct 2020 12:33:23 +0300
-
-q4wine-devel (1.3.12+7+g91e5cb1-0ppa1~focal1) focal; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 13 Mar 2020 01:37:43 +0300
-
-q4wine-devel (1.3.12+5+gd6682d9-0ppa1~focal1) focal; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 12 Mar 2020 09:01:42 +0300
-
-q4wine-devel (1.3.12+4+gdb6e9d8-0ppa1~focal1) focal; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 12 Mar 2020 02:35:44 +0300
-
-q4wine-devel (1.3.12+2+g520d4e7-0ppa1~focal1) focal; urgency=medium
-
-  * New Git snapshot.
-
- -- Boris Pek <tehnick@debian.org>  Thu, 12 Mar 2020 02:02:01 +0300
-
-q4wine (1.3.12-0ppa1~focal1) focal; urgency=medium
-
-  * New stable release.
-
- -- Boris Pek <tehnick@debian.org>  Tue, 11 Feb 2020 00:22:41 +0300
-
-q4wine (1.3.11-1ppa1~focal1) focal; urgency=medium
-
-  * Sync package on Launchpad with package in Debian.
-  * Clean changelog.
-
- -- Boris Pek <tehnick@debian.org>  Fri, 17 Jan 2020 02:23:24 +0300
+ -- Boris Pek <tehnick@debian.org>  Fri, 08 Jan 2021 03:48:50 +0300
 
 q4wine (1.3.11-1) unstable; urgency=medium
 
