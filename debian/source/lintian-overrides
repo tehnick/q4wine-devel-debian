@@ -1,0 +1,3 @@
+# Hide useless notes:
+q4wine-devel source: very-long-line-length-in-source-file src/l10n/*
+q4wine-devel source: very-long-line-length-in-source-file src/q4wine-gui/*
