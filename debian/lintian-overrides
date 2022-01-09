@@ -1,3 +1,2 @@
 # False positives:
-q4wine: hardening-no-fortify-functions usr/bin/q4wine-helper
 q4wine: bin-sbin-mismatch usr/lib/q4wine/libq4wine-core.so bin/q4wine*
