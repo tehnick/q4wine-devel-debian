@@ -1,3 +1,9 @@
+q4wine-devel (1.3.13+2+g9735939-0ppa2~kinetic1) kinetic; urgency=medium
+
+  * Small improvements in the package.
+
+ -- Boris Pek <tehnick@debian.org>  Sat, 28 May 2022 03:43:14 +0300
+
 q4wine-devel (1.3.13+2+g9735939-0ppa1~jammy1) jammy; urgency=medium
 
   * New Git snapshot.
