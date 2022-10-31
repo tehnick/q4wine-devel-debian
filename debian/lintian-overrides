@@ -1,2 +1,5 @@
 # False positives:
-q4wine: bin-sbin-mismatch usr/lib/q4wine/libq4wine-core.so bin/q4wine*
+q4wine: bin-sbin-mismatch bin/q4wine*
+
+# This is the path to q4wine private shared libraries from the same package:
+q4wine: custom-library-search-path RUNPATH /usr/lib/q4wine *
