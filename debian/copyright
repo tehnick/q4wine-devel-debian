@@ -140,7 +140,7 @@ License: cc0-1.0
  in any jurisdiction.
 
 Files: debian/*
-Copyright: 2010-2022 Boris Pek <tehnick-8@yandex.ru>
+Copyright: 2010-2023 Boris Pek <tehnick-8@yandex.ru>
 License: GPL-2+
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
